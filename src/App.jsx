@@ -9,7 +9,7 @@ function App() {
   const [text, setText] = useState('')
 
   const handleClick = () => {
-    axios.post(`${link}/write`, { content: text })
+    axios.post(`https://d6e4-36-255-84-98.ngrok-free.app/write`, { content: text })
     setText('')
   }
 
