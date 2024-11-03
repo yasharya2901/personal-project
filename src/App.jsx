@@ -5,7 +5,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const link = import.meta.env.VITE_LINK;
+  const link = import.meta.env.MY_LINK;
   const [text, setText] = useState('')
 
   const handleClick = () => {
